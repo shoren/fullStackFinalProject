@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class PartsService {
   constructor(private http: HttpClient) { }
-
+  // test
   getParts() {
     return this.http.get('apirequest go here');
   }
